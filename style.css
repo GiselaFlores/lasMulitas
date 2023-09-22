@@ -3,11 +3,35 @@
     justify-content: end !important;
 }
 
+
+/*Clases de barra de navegacion*/
+:root{
+    --naranja: #AD4119;
+}
+
+.colorTitulo{
+    color: #AD4119;
+}
+
 .fondoCuadroMenu{
-    background-color: rgb(128, 115, 0);
+    /*background-color: rgb(128, 115, 0);*/
+    background-color: var(--naranja);
     width: 50rem;
 }
 
+.fondoCuadroMenu a{
+    color: white;
+    font-weight: bold;
+}
+
+.nuestroCarrusel{
+    padding: 0 !important;
+    margin-left: 10% !important;
+}
+
+/*.imagenesCarrusel{
+    height: 50em;
+}*/
 
 
 
@@ -23,3 +47,4 @@
         color: rgb(128, 115, 0);
     }
 }
+
