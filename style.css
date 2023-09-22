@@ -1,0 +1,25 @@
+#flexdemenu{
+    display: flex;
+    justify-content: end !important;
+}
+
+.fondoCuadroMenu{
+    background-color: rgb(128, 115, 0);
+    width: 50rem;
+}
+
+
+
+
+/* Media Query*/
+@media screen and (min-width:400px) and (max-width:992px){
+    div#navbarNavAltMarkup{
+        justify-content: start !important;
+    }
+    .fondoCuadroMenu{
+        background-color: rgba(0, 0, 255, 0);
+    }
+    .colortitulo{
+        color: rgb(128, 115, 0);
+    }
+}
