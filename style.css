@@ -3,7 +3,6 @@
     justify-content: end !important;
 }
 
-
 /*Clases de barra de navegacion*/
 :root{
     --naranja: #AD4119;
@@ -23,17 +22,6 @@
     color: white;
     font-weight: bold;
 }
-
-.nuestroCarrusel{
-    padding: 0 !important;
-    margin-left: 10% !important;
-}
-
-/*.imagenesCarrusel{
-    height: 50em;
-}*/
-
-
 
 /* Media Query*/
 @media screen and (min-width:400px) and (max-width:992px){
