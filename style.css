@@ -3,6 +3,14 @@
     justify-content: end !important;
 }
 
+.orden{
+        display: flex;
+        justify-content: space-around
+      
+}
+
+
+
 /*Clases de barra de navegacion*/
 :root{
     --naranja: #AD4119;
@@ -22,6 +30,29 @@
     color: white;
     font-weight: bold;
 }
+
+.nuestroCarrusel{
+    padding: 0 !important;
+    margin-left: 10% !important;
+}
+
+/*.imagenesCarrusel{
+    height: 50em;
+}*/
+
+.alineacion{
+    text-align: center;
+}
+.fondoBody{
+    background-color: black;
+}
+.colorTexto{
+    color: white;
+}
+.fondoPedido{
+    background-color: brown;
+}
+
 
 /* Media Query*/
 @media screen and (min-width:400px) and (max-width:992px){
