@@ -33,6 +33,10 @@
     font-size: 1.5rem;
 }
 
+.fondoTransparente{
+    background-color: transparent !important;
+}
+
 .nuestroCarrusel{
     padding: 0 !important;
     margin-left: 10% !important;
@@ -54,7 +58,17 @@
 .fondoPedido{
     background-color: brown;
 }
+.textoCards{
+    color: white;
+    font-size: 1.8rem !important;
+}
+.anchoCards{
+    width: 18rem;
+}
 
+.pading{
+    padding: 0 !important;
+}
 
 
 /* Media Query*/
@@ -67,6 +81,12 @@
     }
     .colortitulo{
         color: rgb(128, 115, 0);
+    }
+    .anchoCards{
+        width: 7rem;
+    }
+    .textoCards{
+        font-size: 0.9rem !important;
     }
 }
 
