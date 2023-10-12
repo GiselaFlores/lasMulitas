@@ -18,6 +18,7 @@
 
 .colorTitulo{
     color: #AD4119;
+    font-size: 4rem !important;
 }
 
 .fondoCuadroMenu{
@@ -29,6 +30,7 @@
 .fondoCuadroMenu a{
     color: white;
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .nuestroCarrusel{
@@ -52,6 +54,7 @@
 .fondoPedido{
     background-color: brown;
 }
+
 
 
 /* Media Query*/
