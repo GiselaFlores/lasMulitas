@@ -18,6 +18,7 @@
 
 .colorTitulo{
     color: #AD4119;
+    font-size: 4rem !important;
 }
 
 .fondoCuadroMenu{
@@ -29,6 +30,11 @@
 .fondoCuadroMenu a{
     color: white;
     font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.fondoTransparente{
+    background-color: transparent !important;
 }
 
 .nuestroCarrusel{
@@ -52,6 +58,17 @@
 .fondoPedido{
     background-color: brown;
 }
+.textoCards{
+    color: white;
+    font-size: 1.8rem !important;
+}
+.anchoCards{
+    width: 18rem;
+}
+
+.pading{
+    padding: 0 !important;
+}
 
 
 /* Media Query*/
@@ -65,5 +82,13 @@
     .colortitulo{
         color: rgb(128, 115, 0);
     }
+    .anchoCards{
+        width: 7rem;
+    }
+    .textoCards{
+        font-size: 0.9rem !important;
+    }
 }
+
+
 
