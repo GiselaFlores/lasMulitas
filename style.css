@@ -65,6 +65,11 @@
 .anchoCards{
     width: 18rem;
 }
+.textoInfo{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
 
 .pading{
     padding: 0 !important;
@@ -86,6 +91,9 @@
         width: 7rem;
     }
     .textoCards{
+        font-size: 0.9rem !important;
+    }
+    .textoInfo{
         font-size: 0.9rem !important;
     }
 }
