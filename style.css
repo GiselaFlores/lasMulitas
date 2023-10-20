@@ -74,7 +74,23 @@
 .pading{
     padding: 0 !important;
 }
-
+.precio{
+    background-color: var(--naranja);
+    color: white;
+    border-color: black;
+    font-size: 2rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+}
+.precio:hover{
+    pointer-events: none;
+    cursor:none;
+}
+.textoMenu{
+    font-size: 1.3rem;
+    color: white;
+}
 
 /* Media Query*/
 @media screen and (min-width:400px) and (max-width:992px){
