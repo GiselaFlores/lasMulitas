@@ -42,6 +42,35 @@
     margin-left: 10% !important;
 }
 
+img.dimImage{
+    width: 8rem;
+}
+.dimCard{
+    width: 10rem;
+    align-self: center;
+}
+.alinCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.precio{
+    background-color: var(--naranja);
+    color: white;
+    border-color: black;
+    font-size: 2rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+}
+.precio:hover{
+    pointer-events: none;
+    cursor: none;
+}
+.textoMenu{
+    font-size: 1.3rem;
+    color: white;
+}
 /*.imagenesCarrusel{
     height: 50em;
 }*/
@@ -79,7 +108,7 @@
     .fondoCuadroMenu{
         background-color: rgba(0, 0, 255, 0);
     }
-    .colortitulo{
+    a.colortitulo{
         color: rgb(128, 115, 0);
     }
     .anchoCards{
@@ -88,5 +117,12 @@
     .textoCards{
         font-size: 0.9rem !important;
     }
+    img.dimImage{
+        width: 4rem;
+    }
+    a.dimTex{
+        width: 10rem;
+    }
+    
 }
 
