@@ -67,7 +67,7 @@
 }
 .textoInfo{
     color: white;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
 }
 
@@ -91,6 +91,20 @@
     font-size: 1.3rem;
     color: white;
 }
+.textoNegro{
+    background-color: var(--naranja);
+    color: black;
+    border-color: black;
+    font-size: 2rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+}
+.tamañoChicoCards{
+    height: 10rem;
+    width: 10rem;
+}
+
 
 /* Media Query*/
 @media screen and (min-width:400px) and (max-width:992px){
