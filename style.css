@@ -87,6 +87,10 @@ img.dimImage{
 .fondoPedido{
     background-color: brown;
 }
+.fondoNoticias{
+    background-color: orangered;
+    height: auto;
+}
 .textoCards{
     color: white;
     font-size: 1.8rem !important;
@@ -94,9 +98,49 @@ img.dimImage{
 .anchoCards{
     width: 18rem;
 }
-
+.textoInfo{
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.textoNoticias{
+    font-size: 2rem;
+}
+.anchoTextoNoticias{
+    width: 42rem;
+}
 .pading{
     padding: 0 !important;
+}
+.precio{
+    background-color: var(--naranja);
+    color: white;
+    border-color: black;
+    font-size: 2rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+}
+.precio:hover{
+    pointer-events: none;
+    cursor:none;
+}
+.textoMenu{
+    font-size: 1.3rem;
+    color: white;
+}
+.textoNegro{
+    background-color: var(--naranja);
+    color: black;
+    border-color: black;
+    font-size: 2rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+}
+.tamañoChicoCards{
+    height: 10rem;
+    width: 10rem;
 }
 
 
@@ -117,12 +161,13 @@ img.dimImage{
     .textoCards{
         font-size: 0.9rem !important;
     }
-    img.dimImage{
-        width: 4rem;
+    .textoInfo{
+        font-size: 0.9rem !important;
     }
-    a.dimTex{
-        width: 10rem;
+    .textoNegro{
+        font-size: 1rem!important;
     }
-    
 }
+
+
 
