@@ -14,6 +14,7 @@
 /*Clases de barra de navegacion*/
 :root{
     --naranja: #AD4119;
+    --blanco: white;
 }
 
 .colorTitulo{
@@ -113,7 +114,18 @@
     height: 10rem;
     width: 10rem;
 }
-
+.tituloNosotros{
+    color: yellow;
+    font-size: 5rem;
+}
+.textoNosotros{
+    font-size: 2.5rem;
+    color: var(--blanco);
+}
+.textoMap{
+    font-size: 5rem;
+    color: var(--blanco);
+}
 
 /* Media Query*/
 @media screen and (min-width:400px) and (max-width:992px){
