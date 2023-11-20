@@ -26,12 +26,13 @@
     /*background-color: rgb(128, 115, 0);*/
     background-color: var(--naranja);
     width: 50rem;
+    
 }
 
 .fondoCuadroMenu a{
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.5rem;    
 }
 
 .fondoTransparente{
