@@ -8,6 +8,10 @@
         justify-content: space-around
       
 }
+.orden2{
+    display: flex;
+    justify-content: center;
+}
 
 
 
@@ -81,6 +85,9 @@
 .anchoTextoNoticias{
     width: 42rem;
 }
+.anchoTextoUbicacion{
+    width: 30rem;
+}
 .pading{
     padding: 0 !important;
 }
@@ -126,7 +133,9 @@
     font-size: 5rem;
     color: var(--blanco);
 }
-
+.margenRedes{
+    margin-right: 60px !important;
+}
 /* Media Query*/
 @media screen and (min-width:400px) and (max-width:992px){
     div#navbarNavAltMarkup{
