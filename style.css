@@ -18,21 +18,22 @@
 }
 
 .colorTitulo{
-    color: #AD4119;
-    font-size: 4rem !important;
+    color: #AD4119 !important;
+    font-size:  4rem;
 }
 
-.fondoCuadroMenu{
+.fondoMenu{
     /*background-color: rgb(128, 115, 0);*/
     background-color: var(--naranja);
-    width: 50rem;
-    
+    width: 32rem;
+    justify-content: space-between;
 }
 
 .fondoCuadroMenu a{
-    color: rgb(0, 0, 0);
+    color: white !important;
     font-weight: bold;
-    font-size: 1.5rem;    
+    font-size: 1.5rem;
+    
 }
 
 .fondoTransparente{
@@ -44,16 +45,10 @@
     margin-left: 10% !important;
 }
 
-/*.imagenesCarrusel{
-    height: 50em;
-}*/
-
 .alineacion{
     text-align: center;
 }
-.fondoBody{
-    background-color: black;
-}
+
 .colorTexto{
     color: white;
 }
@@ -63,6 +58,11 @@
 .fondoNoticias{
     background-color: orangered;
     height: auto;
+    display: flex;
+    justify-content: center;
+}
+.fondoBody{
+    background-color: black;
 }
 .textoCards{
     color: white;
@@ -78,6 +78,7 @@
 }
 .textoNoticias{
     font-size: 2rem;
+    padding: .5rem;
 }
 .anchoTextoNoticias{
     width: 42rem;
@@ -111,6 +112,11 @@
     margin: auto;
     margin-top: 2rem;
 }
+.imgTamanioIconos{
+    height: 14rem;
+    width: 14rem;
+    padding: 0.2rem;
+}
 .tamañoChicoCards{
     height: 10rem;
     width: 10rem;
@@ -128,13 +134,14 @@
     color: var(--blanco);
 }
 
+
 /* Media Query*/
-@media screen and (min-width:400px) and (max-width:992px){
+@media screen and (min-width:400px) and (max-width:750px){
     div#navbarNavAltMarkup{
         justify-content: start !important;
     }
     .fondoCuadroMenu{
-        background-color: rgba(0, 0, 255, 0);
+        width: 20rem;
     }
     .colortitulo{
         color: rgb(128, 115, 0);
@@ -150,6 +157,17 @@
     }
     .textoNegro{
         font-size: 1rem!important;
+    }
+    .fondoNoticias{
+        display: flex;
+        justify-content: center;
+    }
+    .fdoBtnMenu{
+        background: rgb(255, 255, 255);
+    }
+    .imgTamanioIconos{
+        height: auto;
+        width: auto;
     }
 }
 
