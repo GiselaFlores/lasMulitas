@@ -117,6 +117,7 @@
     width: 14rem;
     padding: 0.2rem;
 }
+
 .tamañoChicoCards{
     height: 10rem;
     width: 10rem;
@@ -168,6 +169,10 @@
     .imgTamanioIconos{
         height: auto;
         width: auto;
+    }
+    .imgSello{
+        width: 15rem;
+        left: 15rem;
     }
 }
 
