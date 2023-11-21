@@ -52,6 +52,12 @@
 .colorTexto{
     color: white;
 }
+.colorForm{
+    color: white;
+    font-size:large;
+    font-weight: bolder;
+    background-color: orangered;
+}
 .fondoPedido{
     background-color: brown;
 }
@@ -134,6 +140,11 @@
     font-size: 5rem;
     color: var(--blanco);
 }
+.imgNews{
+    width: 20rem;
+    left: 20rem;
+    
+}
 
 
 /* Media Query*/
@@ -145,16 +156,9 @@
         width: 20rem;
     }
     .colortitulo{
-        color: rgb(128, 115, 0);
-    }
-    .anchoCards{
-        width: 7rem;
-    }
-    .textoCards{
-        font-size: 0.9rem !important;
-    }
-    .textoInfo{
-        font-size: 0.9rem !important;
+        width: 20rem;
+        left: 20rem;
+        
     }
     .textoNegro{
         font-size: 1rem!important;
@@ -174,7 +178,10 @@
         width: 15rem;
         left: 15rem;
     }
+    .ordenNew{
+        display:block
+    }
+    .fueraMulita{
+        display: none;
+    }
 }
-
-
-
