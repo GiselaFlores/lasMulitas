@@ -88,6 +88,15 @@
 .anchoTextoUbicacion{
     width: 30rem;
 }
+.anchoTextoCupon{
+    width: 30rem;
+}
+.anchoTextoMenuPedir{
+    width: 25rem;
+}
+.anchoTextoMenuPedir2{
+    width: auto;
+}
 .pading{
     padding: 0 !important;
 }
@@ -133,8 +142,23 @@
     font-size: 5rem;
     color: var(--blanco);
 }
+.textoCupon{
+    font-size: 10rem;
+    color: black;
+}
+.textoCupon2{
+    font-size: 3rem;
+    color: black;
+}
+.textoCupon3{
+    font-size: 2.7rem;
+    color: white;
+}
 .margenRedes{
     margin-right: 60px !important;
+}
+.margenCupon{
+    margin-top: 200px;
 }
 /* Media Query*/
 @media screen and (min-width:400px) and (max-width:992px){
