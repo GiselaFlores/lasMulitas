@@ -67,6 +67,10 @@
     background-color: orangered;
     height: auto;
 }
+.fondoPedido{
+    background-color: gray;
+    height: auto;
+}
 .textoCards{
     color: white;
     font-size: 1.8rem !important;
@@ -159,6 +163,10 @@
 }
 .margenCupon{
     margin-top: 200px;
+}
+.margenAclaraciones{
+    width: 50rem;
+    height: 5rem;
 }
 /* Media Query*/
 @media screen and (min-width:400px) and (max-width:992px){
