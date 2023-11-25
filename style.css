@@ -168,6 +168,47 @@
     width: 50rem;
     height: 5rem;
 }
+
+
+
+
+
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: 40px auto 100px auto;
+
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	-ms-grid-columns: repeat(4, 1fr);
+	-ms-grid: grid;
+	gap: 40px;
+}
+
+.contenedor .pelicula {
+	text-align: center;
+}
+
+.contenedor .pelicula .titulo {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.contenedor .pelicula .poster {
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 15px;
+}
+.titulos{
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.descripcion{
+    text-align: left;
+}
 /* Media Query*/
 @media screen and (min-width:400px) and (max-width:992px){
     div#navbarNavAltMarkup{
