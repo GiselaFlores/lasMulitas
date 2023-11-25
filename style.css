@@ -1,8 +1,3 @@
-#flexdemenu{
-    display: flex;
-    justify-content: end !important;
-}
-
 .orden{
         display: flex;
         justify-content: space-around
@@ -16,6 +11,12 @@
     --naranja: #AD4119;
     --blanco: white;
 }
+
+.flexdemenu{
+    display: flex;
+    justify-content: end !important;
+}
+
 
 .colorTitulo{
     color: #AD4119 !important;
@@ -146,6 +147,12 @@
     
 }
 
+.separarpalabras{
+    padding: 1.5rem;
+    width: 10rem;
+}
+
+
 
 /* Media Query*/
 @media screen and (min-width:400px) and (max-width:750px){
@@ -168,7 +175,7 @@
         justify-content: center;
     }
     .fdoBtnMenu{
-        background: rgb(255, 255, 255);
+        background:#AD4119;
     }
     .imgTamanioIconos{
         height: auto;
