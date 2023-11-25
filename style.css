@@ -4,7 +4,10 @@
       
 }
 
-
+.orden2{
+    display: flex;
+    justify-content: center;
+}
 
 /*Clases de barra de navegacion*/
 :root{
@@ -50,6 +53,10 @@
     text-align: center;
 }
 
+.fondoBody{
+    background-color: black;
+}
+
 .colorTexto{
     color: white;
 }
@@ -68,9 +75,12 @@
     display: flex;
     justify-content: center;
 }
-.fondoBody{
-    background-color: black;
+
+.fondoPedido{
+    background-color: gray;
+    height: auto;
 }
+
 .textoCards{
     color: white;
     font-size: 1.8rem !important;
@@ -90,6 +100,20 @@
 .anchoTextoNoticias{
     width: 42rem;
 }
+
+.anchoTextoUbicacion{
+    width: 30rem;
+}
+.anchoTextoCupon{
+    width: 30rem;
+}
+.anchoTextoMenuPedir{
+    width: 25rem;
+}
+.anchoTextoMenuPedir2{
+    width: auto;
+}
+
 .pading{
     padding: 0 !important;
 }
@@ -110,7 +134,11 @@
     font-size: 1.3rem;
     color: white;
 }
-.textoNegro{
+.textoNegro{.orden2{
+    display: flex;
+    justify-content: center;
+}
+
     background-color: var(--naranja);
     color: black;
     border-color: black;
@@ -141,6 +169,31 @@
     font-size: 5rem;
     color: var(--blanco);
 }
+
+.textoCupon{
+    font-size: 10rem;
+    color: black;
+}
+
+.textoCupon2{
+    font-size: 3rem;
+    color: black;
+}
+.textoCupon3{
+    font-size: 2.7rem;
+    color: white;
+}
+.margenRedes{
+    margin-right: 60px !important;
+}
+.margenCupon{
+    margin-top: 200px;
+}
+.margenAclaraciones{
+    width: 50rem;
+    height: 5rem;
+}
+
 .imgNews{
     width: 20rem;
     left: 20rem;
@@ -153,6 +206,42 @@
 }
 
 
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: 40px auto 100px auto;
+
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	-ms-grid-columns: repeat(4, 1fr);
+	-ms-grid: grid;
+	gap: 40px;
+}
+
+.contenedor .pelicula {
+	text-align: center;
+}
+
+.contenedor .pelicula .titulo {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.contenedor .pelicula .poster {
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 15px;
+}
+.titulos{
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.descripcion{
+    text-align: left;
+}
 
 /* Media Query*/
 @media screen and (min-width:400px) and (max-width:750px){
@@ -160,13 +249,25 @@
         justify-content: start !important;
     }
     .fondoCuadroMenu{
+        background-color: rgba(0, 0, 255, 0);
         width: 20rem;
     }
     .colortitulo{
+        color: rgb(128, 115, 0);
         width: 20rem;
         left: 20rem;
-        
     }
+
+    .anchoCards{
+        width: 7rem;
+    }
+    .textoCards{
+        font-size: 0.9rem !important;
+    }
+    .textoInfo{
+        font-size: 0.9rem !important;
+    }
+
     .textoNegro{
         font-size: 1rem!important;
     }
