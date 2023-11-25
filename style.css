@@ -1,8 +1,3 @@
-#flexdemenu{
-    display: flex;
-    justify-content: end !important;
-}
-
 .orden{
         display: flex;
         justify-content: space-around
@@ -17,21 +12,29 @@
     --blanco: white;
 }
 
-.colorTitulo{
-    color: #AD4119;
-    font-size: 4rem !important;
+.flexdemenu{
+    display: flex;
+    justify-content: end !important;
 }
 
-.fondoCuadroMenu{
+
+.colorTitulo{
+    color: #AD4119 !important;
+    font-size:  4rem;
+}
+
+.fondoMenu{
     /*background-color: rgb(128, 115, 0);*/
     background-color: var(--naranja);
-    width: 50rem;
+    width: 32rem;
+    justify-content: space-between;
 }
 
 .fondoCuadroMenu a{
-    color: white;
+    color: white !important;
     font-weight: bold;
     font-size: 1.5rem;
+    
 }
 
 .fondoTransparente{
@@ -43,47 +46,18 @@
     margin-left: 10% !important;
 }
 
-img.dimImage{
-    width: 8rem;
-}
-.dimCard{
-    width: 10rem;
-    align-self: center;
-}
-.alinCard{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.precio{
-    background-color: var(--naranja);
-    color: white;
-    border-color: black;
-    font-size: 2rem;
-    display: block;
-    margin: auto;
-    margin-top: 2rem;
-}
-.precio:hover{
-    pointer-events: none;
-    cursor: none;
-}
-.textoMenu{
-    font-size: 1.3rem;
-    color: white;
-}
-/*.imagenesCarrusel{
-    height: 50em;
-}*/
-
 .alineacion{
     text-align: center;
 }
-.fondoBody{
-    background-color: black;
-}
+
 .colorTexto{
     color: white;
+}
+.colorForm{
+    color: white;
+    font-size:large;
+    font-weight: bolder;
+    background-color: orangered;
 }
 .fondoPedido{
     background-color: brown;
@@ -91,6 +65,11 @@ img.dimImage{
 .fondoNoticias{
     background-color: orangered;
     height: auto;
+    display: flex;
+    justify-content: center;
+}
+.fondoBody{
+    background-color: black;
 }
 .textoCards{
     color: white;
@@ -106,6 +85,7 @@ img.dimImage{
 }
 .textoNoticias{
     font-size: 2rem;
+    padding: .5rem;
 }
 .anchoTextoNoticias{
     width: 42rem;
@@ -139,6 +119,12 @@ img.dimImage{
     margin: auto;
     margin-top: 2rem;
 }
+.imgTamanioIconos{
+    height: 14rem;
+    width: 14rem;
+    padding: 0.2rem;
+}
+
 .tamañoChicoCards{
     height: 10rem;
     width: 10rem;
@@ -155,31 +141,54 @@ img.dimImage{
     font-size: 5rem;
     color: var(--blanco);
 }
+.imgNews{
+    width: 20rem;
+    left: 20rem;
+    
+}
 
-/* Media Query*/
-@media screen and (min-width:400px) and (max-width:992px){
-    div#navbarNavAltMarkup{
-        justify-content: start !important;
-    }
-    .fondoCuadroMenu{
-        background-color: rgba(0, 0, 255, 0);
-    }
-    a.colortitulo{
-        color: rgb(128, 115, 0);
-    }
-    .anchoCards{
-        width: 7rem;
-    }
-    .textoCards{
-        font-size: 0.9rem !important;
-    }
-    .textoInfo{
-        font-size: 0.9rem !important;
-    }
-    .textoNegro{
-        font-size: 1rem!important;
-    }
+.separarpalabras{
+    padding: 1.5rem;
+    width: 10rem;
 }
 
 
 
+/* Media Query*/
+@media screen and (min-width:400px) and (max-width:750px){
+    div#navbarNavAltMarkup{
+        justify-content: start !important;
+    }
+    .fondoCuadroMenu{
+        width: 20rem;
+    }
+    .colortitulo{
+        width: 20rem;
+        left: 20rem;
+        
+    }
+    .textoNegro{
+        font-size: 1rem!important;
+    }
+    .fondoNoticias{
+        display: flex;
+        justify-content: center;
+    }
+    .fdoBtnMenu{
+        background:#AD4119;
+    }
+    .imgTamanioIconos{
+        height: auto;
+        width: auto;
+    }
+    .imgSello{
+        width: 15rem;
+        left: 15rem;
+    }
+    .ordenNew{
+        display:block
+    }
+    .fueraMulita{
+        display: none;
+    }
+}
