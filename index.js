@@ -6,17 +6,17 @@ let pagina = 1;
 btnAnterior.addEventListener("click", ()=>{
     if(pagina > 1){
         pagina -= 1;
-        cargarPeliculas();
+        cargarPlatos();
     }
 })
 btnSiguiente.addEventListener("click", ()=>{
     if(pagina < 1000){
         pagina += 1;
-        cargarPeliculas();
+        cargarPlatos();
     }
 })
 
-const cargarPeliculas = async()=>{
+const cargarPlatos = async()=>{
 
     try{
 
@@ -34,10 +34,11 @@ const cargarPeliculas = async()=>{
                 <div class="card orden" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title titulos">${platos.nombrePlato}</h5>
-                        <p class="card-text descripcion">${platos.descripcion}</p>
-                        <p class="card-text descripcion">${platos.ingredientes}</p>
-                        <p class="card-text descripcion">${platos.elaboracion}</p>
-                        <p class="card-text descripcion">${platos.calorias}</p>
+                        <p class="card-text descripcion">Descripcion: ${platos.enlaceFoto}</p>
+                        <p class="card-text descripcion">Descripcion: ${platos.descripcion}</p>
+                        <p class="card-text descripcion">Ingredientes: ${platos.ingredientes}</p>
+                        <p class="card-text descripcion">Elaboración: ${platos.elaboracion}</p>
+                        <p class="card-text descripcion">Calorias: ${platos.calorias}</p>
                     </div>
                 </div>
                 `;
@@ -51,6 +52,6 @@ const cargarPeliculas = async()=>{
     }
 
 }
-cargarPeliculas();
+cargarPlatos();
 
   
