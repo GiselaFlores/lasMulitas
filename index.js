@@ -32,12 +32,14 @@ const cargarPeliculas = async()=>{
             datos.forEach(platos => {
                 plato += `
                 <div class="card orden" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title titulos">${platos.nombrePlato}</h5>
-                        <p class="card-text descripcion">${platos.descripcion}</p>
-                        <p class="card-text descripcion">${platos.ingredientes}</p>
-                        <p class="card-text descripcion">${platos.elaboracion}</p>
-                        <p class="card-text descripcion">${platos.calorias}</p>
+                    <img src="${platos.enlaceFoto}" class="card-img-top" alt="foto del plato a la venta">
+                    
+                    <div class="card-body"> 
+                        <h5 class="card-title h5titulos">${platos.nombrePlato}</h5>
+                        <p class="card-text descripcion"><p class= titulos> Descripción: </p> ${platos.descripcion}</p>
+                        <p class="card-text descripcion"><p class= titulos> Ingresientes: </p> ${platos.ingredientes}</p>
+                        <p class="card-text descripcion"><p class= titulos> Elaboración: </p> ${platos.elaboracion}</p>
+                        <p class="card-text descripcion"><p class= titulos> Calorias: </p> ${platos.calorias}</p>
                     </div>
                 </div>
                 `;
