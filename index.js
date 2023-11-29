@@ -1,3 +1,20 @@
+/*import { getStorage, ref, getDownloadURL } from 'firebase/storage';
+const storage = getStorage();
+const imageRef = ref(storage, 'gs://platos-974f6.appspot.com/Redes Sociales.png');
+
+getDownloadURL(imageRef)
+  .then((url) => {
+    // Aquí puedes usar la URL para mostrar la imagen en tu sitio web
+    const img = document.createElement('img');
+    img.src = url;
+    document.body.appendChild(img);
+  })
+  .catch((error) => {
+    console.error('Error al obtener la URL de la imagen', error);
+  });*/
+
+
+
 const btnAnterior = document.getElementById("btnAnterior");
 const btnSiguiente = document.getElementById("btnSiguiente");
 const contenedor = document.getElementById("contenedor");
@@ -33,6 +50,7 @@ const cargarPlatos = async()=>{
                 plato += `
                 <div class="card orden" style="width: 18rem;">
                     <div class="card-body">
+                        <img src="${platos.enlaceFoto}" class="card-img-top" alt="...">
                         <h5 class="card-title titulos">${platos.nombrePlato}</h5>
                         <p class="card-text descripcion">Descripcion: ${platos.enlaceFoto}</p>
                         <p class="card-text descripcion">Descripcion: ${platos.descripcion}</p>
