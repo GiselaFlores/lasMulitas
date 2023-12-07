@@ -1,3 +1,4 @@
+
 const btnAnterior = document.getElementById("btnAnterior");
 const btnSiguiente = document.getElementById("btnSiguiente");
 const contenedor = document.getElementById("contenedor");
@@ -20,7 +21,7 @@ const cargarPeliculas = async()=>{
 
     try{
 
-        const respuesta = await fetch(`https://platos-974f6-default-rtdb.firebaseio.com/platos.json`)
+        const respuesta = await fetch(`http://vps-3568255-x.dattaweb.com:3000/platos.json`)
         console.log(respuesta);
         
         if(respuesta.status === 200){

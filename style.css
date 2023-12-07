@@ -35,7 +35,7 @@ font-size:  4rem;
 /*background-color: rgb(128, 115, 0);*/
 background-color: var(--naranja);
 width: 32rem;
-justify-content: space-between;
+
 }
 
 .fondoCuadroMenu a{
@@ -255,13 +255,13 @@ width: 10rem;
 }
 
 /* Media Query*/
-@media screen and (min-width:400px) and (max-width:750px){
+@media screen and (min-width:200px) and (max-width:990px){
     div#navbarNavAltMarkup{
         justify-content: start !important;
     }
     .fondoCuadroMenu{
         background-color: rgba(0, 0, 255, 0);
-        width: 20rem;
+        width: 90rem;
     }
     .colortitulo{
         color: rgb(128, 115, 0);
