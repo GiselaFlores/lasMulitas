@@ -1,3 +1,19 @@
+/*import { getStorage, ref, getDownloadURL } from 'firebase/storage';
+const storage = getStorage();
+const imageRef = ref(storage, 'gs://platos-974f6.appspot.com/Redes Sociales.png');
+
+getDownloadURL(imageRef)
+  .then((url) => {
+    // Aquí puedes usar la URL para mostrar la imagen en tu sitio web
+    const img = document.createElement('img');
+    img.src = url;
+    document.body.appendChild(img);
+  })
+  .catch((error) => {
+    console.error('Error al obtener la URL de la imagen', error);
+  });*/
+
+
 
 const btnAnterior = document.getElementById("btnAnterior");
 const btnSiguiente = document.getElementById("btnSiguiente");
@@ -7,17 +23,17 @@ let pagina = 1;
 btnAnterior.addEventListener("click", ()=>{
     if(pagina > 1){
         pagina -= 1;
-        cargarPeliculas();
+        cargarPlatos();
     }
 })
 btnSiguiente.addEventListener("click", ()=>{
     if(pagina < 1000){
         pagina += 1;
-        cargarPeliculas();
+        cargarPlatos();
     }
 })
 
-const cargarPeliculas = async()=>{
+const cargarPlatos = async()=>{
 
     try{
 
@@ -33,14 +49,14 @@ const cargarPeliculas = async()=>{
             datos.forEach(platos => {
                 plato += `
                 <div class="card orden" style="width: 18rem;">
-                    <img src="${platos.enlaceFoto}" class="card-img-top" alt="foto del plato a la venta">
-                    
-                    <div class="card-body"> 
-                        <h5 class="card-title h5titulos">${platos.nombrePlato}</h5>
-                        <p class="card-text descripcion"><p class= titulos> Descripción: </p> ${platos.descripcion}</p>
-                        <p class="card-text descripcion"><p class= titulos> Ingresientes: </p> ${platos.ingredientes}</p>
-                        <p class="card-text descripcion"><p class= titulos> Elaboración: </p> ${platos.elaboracion}</p>
-                        <p class="card-text descripcion"><p class= titulos> Calorias: </p> ${platos.calorias}</p>
+                    <div class="card-body">
+                        <img src="${platos.enlaceFoto}" class="card-img-top" alt="...">
+                        <h5 class="card-title titulos">${platos.nombrePlato}</h5>
+                        <p class="card-text descripcion">Descripcion: ${platos.enlaceFoto}</p>
+                        <p class="card-text descripcion">Descripcion: ${platos.descripcion}</p>
+                        <p class="card-text descripcion">Ingredientes: ${platos.ingredientes}</p>
+                        <p class="card-text descripcion">Elaboración: ${platos.elaboracion}</p>
+                        <p class="card-text descripcion">Calorias: ${platos.calorias}</p>
                     </div>
                 </div>
                 `;
@@ -54,6 +70,6 @@ const cargarPeliculas = async()=>{
     }
 
 }
-cargarPeliculas();
+cargarPlatos();
 
   
