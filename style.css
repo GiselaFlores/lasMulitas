@@ -3,109 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-.orden{
-    display: flex;
-    justify-content: space-around
-  
-}
 
-.orden2{
-    display: flex;
-    justify-content: center;
-}
-
-/*Clases de barra de navegacion*/
-:root{
---naranja: #AD4119;
---blanco: white;
-}
-
-.flexdemenu{
-display: flex;
-justify-content: end !important;
-}
-
-
-.colorTitulo{
-color: #AD4119 !important;
-font-size:  4rem;
-}
-
-.fondoMenu{
-/*background-color: rgb(128, 115, 0);*/
-background-color: var(--naranja);
-width: 32rem;
-
-}
-
-.fondoCuadroMenu a{
-color: white !important;
-font-weight: bold;
-font-size: 1.5rem;
-
-}
-
-.fondoTransparente{
-background-color: transparent !important;
-}
-
-.nuestroCarrusel{
-padding: 0 !important;
-margin-left: 10% !important;
-}
-
-.alineacion{
-text-align: center;
-}
-
-.fondoBody{
-    background-color: black;
-}
-
-.colorTexto{
-color: white;
-}
-.colorForm{
-color: white;
-font-size:large;
-font-weight: bolder;
-background-color: orangered;
-}
-.fondoPedido{
-background-color: brown;
-}
-.fondoNoticias{
-background-color: orangered;
-height: auto;
-display: flex;
-justify-content: center;
-}
-
-.fondoPedido{
-    background-color: gray;
-    height: auto;
-}
-
-.textoCards{
-color: white;
-font-size: 1.8rem !important;
-}
-.anchoCards{
-width: 18rem;
-}
-.textoInfo{
-color: white;
-font-size: 2.5rem;
-text-align: center;
-}
-.textoNoticias{
-font-size: 2rem;
-padding: .5rem;
-}
 .anchoTextoNoticias{
-width: 42rem;
+    width: 42rem;
 }
-
+    
 .anchoTextoUbicacion{
     width: 30rem;
 }
@@ -119,97 +21,31 @@ width: 42rem;
     width: auto;
 }
 
-.pading{
-padding: 0 !important;
-}
-.precio{
-background-color: var(--naranja);
-color: white;
-border-color: black;
-font-size: 2rem;
-display: block;
-margin: auto;
-margin-top: 2rem;
-}
-.precio:hover{
-pointer-events: none;
-cursor:none;
-}
-.textoMenu{
-font-size: 1.3rem;
-color: white;
-}
-.textoNegro{.orden2{
-    display: flex;
-    justify-content: center;
-}
-
-    background-color: var(--naranja);
-    color: black;
-    border-color: black;
-    font-size: 2rem;
-    display: block;
-    margin: auto;
+.alineacion{
+    text-align: center;
     margin-top: 2rem;
-}
-.imgTamanioIconos{
-height: 14rem;
-width: 14rem;
-padding: 0.2rem;
+    margin-bottom: 1rem;
 }
 
-.tamañoChicoCards{
-height: 10rem;
-width: 10rem;
-}
-.tituloNosotros{
-color: yellow;
-font-size: 5rem;
-}
-.textoNosotros{
-font-size: 2.5rem;
-color: var(--blanco);
-}
-.textoMap{
-font-size: 5rem;
-color: var(--blanco);
+.anchoCards{
+    width: 18rem;
+}    
+
+.colorTitulo{
+    color: #AD4119 !important;
+    font-size:  4rem;
 }
 
-.textoCupon{
-    font-size: 10rem;
-    color: black;
+.colorTexto{
+    color: rgb(255, 255, 255);
 }
 
-.textoCupon2{
-    font-size: 3rem;
-    color: black;
-}
-.textoCupon3{
-    font-size: 2.7rem;
+.colorForm{
     color: white;
+    font-size:large;
+    font-weight: bolder;
+    background-color: orangered;
 }
-.margenRedes{
-    margin-right: 60px !important;
-}
-.margenCupon{
-    margin-top: 200px;
-}
-.margenAclaraciones{
-    width: 50rem;
-    height: 5rem;
-}
-
-.imgNews{
-width: 20rem;
-left: 20rem;
-
-}
-
-.separarpalabras{
-padding: 1.5rem;
-width: 10rem;
-}
-
 
 .contenedor {
 	width: 100%;
@@ -235,11 +71,51 @@ width: 10rem;
 	margin-bottom: 10px;
 	border-radius: 15px;
 }
-.titulos{
-    font-size: 18px;
-    font-weight: 800;
-    margin-bottom: 10px;
-    margin-top: 10px;
+
+.descripcion{
+    text-align: left;
+}
+
+.flexdemenu{
+    display: flex;
+    justify-content: end !important;
+}
+
+.fondoMenu{
+/*background-color: rgb(128, 115, 0);*/
+    background-color: var(--naranja);
+    width: 32rem;
+
+}
+
+.fondoCuadroMenu a{
+    color: white !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.fondoTransparente{
+    background-color: transparent !important;
+}
+
+.fondoBody{
+    background-color: black;
+}
+
+.fondoPedido{
+    background-color: brown;
+}
+
+.fondoPedido{
+    background-color: gray;
+    height: auto;
+}
+
+.fondoNoticias{
+    background-color: orangered;
+    height: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .h5titulos{
@@ -250,59 +126,187 @@ width: 10rem;
     margin-top: 10px;
 }
 
-.descripcion{
-    text-align: left;
+.imgTamanioIconos{
+    height: 14rem;
+    width: 14rem;
+    padding: 0.2rem;
 }
+.contenedor {
+    width: 100%;
+    max-width: auto;
+    margin: 1rem;
+    display:flex;
+    color: white;
+    justify-content: center;
+    gap: 40px;
+}
+    
+.contenedor .pelicula {
+    text-align: center;
+}
+    
+.contenedor .pelicula .titulo {
+    font-size: 16px;
+    font-weight: 600;
+}
+    
+.contenedor .pelicula .poster {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.imgNews{
+    width: 20rem;
+    left: 20rem;    
+}
+
+.margenRedes{
+    margin-right: 60px !important;
+}
+
+.margenCupon{
+    margin-top: 200px;
+}
+
+.margenAclaraciones{
+    width: 50rem;
+    height: 5rem;
+}
+
+.nuestroCarrusel{
+    padding: 0 !important;
+    margin-left: 10% !important;
+}
+
+.orden{
+    display: flex;
+    justify-content: space-around
+  
+}
+
+.orden2{
+    display: flex;
+    justify-content: center;
+}
+
+.pading{
+    padding: 0 !important;
+}
+    
+.precio{
+    background-color: var(--naranja);
+    color: white;
+    border-color: black;
+    font-size: 2rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+}
+    
+.precio:hover{
+    pointer-events: none;
+    cursor:none;
+}
+    
+/*Clases de barra de navegacion*/
+:root{
+--naranja: #AD4119;
+--blanco: white;
+}
+
+.separarpalabras{
+    padding: 1.5rem;
+    width: 10rem;
+}
+
+.textoCards{
+color: white;
+font-size: 1.8rem !important;
+}
+
+.textoInfo{
+color: white;
+font-size: 2.5rem;
+text-align: center;
+}
+
+.textoNoticias{
+font-size: 2rem;
+padding: .5rem;
+}
+
+.textoMenu{
+font-size: 1.3rem;
+color: white;
+}
+
+.textoNegro{
+    background-color: var(--naranja);
+    color: black;
+    border-color: black;
+    font-size: 2rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.tamañoChicoCards{
+height: 10rem;
+width: 10rem;
+}
+
+.tituloNosotros{
+color: yellow;
+font-size: 5rem;
+}
+
+.textoNosotros{
+font-size: 2.5rem;
+color: var(--blanco);
+}
+
+.textoMap{
+font-size: 5rem;
+color: var(--blanco);
+}
+
+.textoCupon{
+    font-size: 10rem;
+    color: black;
+}
+
+.textoCupon2{
+    font-size: 3rem;
+    color: black;
+}
+
+.textoCupon3{
+    font-size: 2.7rem;
+    color: white;
+}
+
+.titulos{
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
 
 /* Media Query*/
 @media screen and (min-width:200px) and (max-width:990px){
-    div#navbarNavAltMarkup{
-        justify-content: start !important;
+    .anchoCards{
+        width: 7rem;
     }
-    .fondoCuadroMenu{
-        background-color: rgba(0, 0, 255, 0);
-        width: 90rem;
-    }
+
     .colortitulo{
         color: rgb(128, 115, 0);
         width: 20rem;
         left: 20rem;
     }
 
-    .anchoCards{
-        width: 7rem;
-    }
-    .textoCards{
-        font-size: 0.9rem !important;
-    }
-    .textoInfo{
-        font-size: 0.9rem !important;
-    }
-
-    .textoNegro{
-        font-size: 1rem!important;
-    }
-    .fondoNoticias{
-        display: flex;
-        justify-content: center;
-    }
-    .fdoBtnMenu{
-        background:#AD4119;
-    }
-    .imgTamanioIconos{
-        height: auto;
-        width: auto;
-    }
-    .imgSello{
-        width: 15rem;
-        left: 15rem;
-    }
-    .ordenNew{
-        display:block
-    }
-    .fueraMulita{
-        display: none;
-    }
     .contenedor {
         width: 100%;
         max-width: auto;
@@ -312,5 +316,53 @@ width: 10rem;
         background-position: center;
         justify-content: center;
         gap: 40px;
+    }
+
+    div#navbarNavAltMarkup{
+        justify-content: start !important;
+    }
+
+    .fondoCuadroMenu{
+        background-color: rgba(0, 0, 255, 0);
+        width: 90rem;
+    }
+    
+    .fondoNoticias{
+        display: flex;
+        justify-content: center;
+    }
+
+    .fdoBtnMenu{
+        background:#AD4119;
+    }
+
+    .fueraMulita{
+        display: none;
+    }
+
+    .imgTamanioIconos{
+        height: auto;
+        width: auto;
+    }
+
+    .imgSello{
+        width: 15rem;
+        left: 15rem;
+    }
+
+    .ordenNew{
+        display:block
+    }
+
+    .textoCards{
+        font-size: 0.9rem !important;
+    }
+
+    .textoInfo{
+        font-size: 0.9rem !important;
+    }
+
+    .textoNegro{
+        font-size: 1rem!important;
     }
 }
