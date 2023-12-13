@@ -12,6 +12,10 @@
     display: flex;
     justify-content: center;
 }
+.orden3{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
@@ -71,6 +75,10 @@
     background-color: gray;
     height: auto;
 }
+.fondoFooter{
+    background-color: orangered;
+    height: 16rem;
+}
 .textoCards{
     color: white;
     font-size: 1.8rem !important;
@@ -88,6 +96,9 @@
 }
 .anchoTextoNoticias{
     width: 42rem;
+}
+.anchoTextoFooter{
+    width: 20rem;
 }
 .anchoTextoUbicacion{
     width: 30rem;
@@ -134,6 +145,10 @@
     height: 10rem;
     width: 10rem;
 }
+.tamañoChicoCards2{
+    height: 12rem;
+    width: 7rem;
+}
 .tituloNosotros{
     color: yellow;
     font-size: 5rem;
@@ -158,6 +173,14 @@
     font-size: 2.7rem;
     color: white;
 }
+.textoFooter{
+    font-size: 5rem;
+    color: black;
+}
+.textoFooter2{
+    color: black;
+    margin-left:255px !important;
+}
 .margenRedes{
     margin-right: 60px !important;
 }
@@ -167,6 +190,13 @@
 .margenAclaraciones{
     width: 50rem;
     height: 5rem;
+}
+.altoImgFooter{
+    height: 12rem;
+}
+.altoAnchoImgFooter{
+    height: 7rem;
+    width: 5rem;
 }
 
 
@@ -179,8 +209,8 @@
 	margin: 40px auto 100px auto;
 
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	-ms-grid-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(2, 1fr);
+	-ms-grid-columns: repeat(2, 1fr);
 	-ms-grid: grid;
 	gap: 40px;
 }
