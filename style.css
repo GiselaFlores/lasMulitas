@@ -57,8 +57,8 @@
 	margin: 40px auto 100px auto;
 
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	-ms-grid-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(2, 1fr);
+	-ms-grid-columns: repeat(2, 1fr);
 	-ms-grid: grid;
 	gap: 40px;
 }
@@ -133,30 +133,6 @@
     height: 14rem;
     width: 14rem;
     padding: 0.2rem;
-}
-.contenedor {
-    width: 100%;
-    max-width: auto;
-    margin: 1rem;
-    display:flex;
-    color: white;
-    justify-content: center;
-    gap: 40px;
-}
-    
-.contenedor .pelicula {
-    text-align: center;
-}
-    
-.contenedor .pelicula .titulo {
-    font-size: 16px;
-    font-weight: 600;
-}
-    
-.contenedor .pelicula .poster {
-    width: 100%;
-    margin-bottom: 10px;
-    border-radius: 15px;
 }
 
 .imgNews{
