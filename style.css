@@ -24,7 +24,7 @@
 .alineacion{
     text-align: center;
     margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
 }
 
 .anchoCards{
@@ -104,11 +104,8 @@
 
 .fondoPedido{
     background-color: brown;
-}
-
-.fondoPedido{
-    background-color: gray;
     height: auto;
+    padding: 1.5rem;
 }
 
 .fondoNoticias{
