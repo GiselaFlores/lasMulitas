@@ -93,6 +93,10 @@ justify-content: center;
     background-color: gray;
     height: auto;
 }
+.fondoFooter{
+    background-color: orangered;
+    height: 16rem;
+}
 .textoCards{
 color: white;
 font-size: 1.8rem !important;
