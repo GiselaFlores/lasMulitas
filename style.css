@@ -1,3 +1,7 @@
+/** #flexdemenu{
+    display: flex;
+    justify-content: end !important;
+}**/
 *{
     margin: 0;
     padding: 0;
@@ -48,12 +52,14 @@
 }
 
 .contenedor {
-	width: 100%;
-	max-width: auto;
-	margin: 1rem;
-	display:flex;
-    color: white;
-    justify-content: center;
+	width: 90%;
+	max-width: 1000px;
+	margin: 40px auto 100px auto;
+
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	-ms-grid-columns: repeat(2, 1fr);
+	-ms-grid: grid;
 	gap: 40px;
 }
 
