@@ -52,7 +52,8 @@ const cargarPlatos = async()=>{
                     <div class="card-body">
                         <img src="${platos.enlaceFoto}" class="card-img-top" alt="...">
                         <h5 class="card-title titulos">${platos.nombrePlato}</h5>
-                        <ph1 class="card-text descripcion">Descripcion: ${platos.descripcion}</p>
+                        <p class="card-text descripcion">Descripcion: ${platos.enlaceFoto}</p>
+                        <p class="card-text descripcion">Descripcion: ${platos.descripcion}</p>
                         <p class="card-text descripcion">Ingredientes: ${platos.ingredientes}</p>
                         <p class="card-text descripcion">Elaboración: ${platos.elaboracion}</p>
                         <p class="card-text descripcion">Calorias: ${platos.calorias}</p>
