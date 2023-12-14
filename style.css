@@ -251,18 +251,24 @@ color: var(--blanco);
 }
 
 .textoCupon{
-    font-size: 10rem;
-    color: black;
+    font-size: 5rem;
+    color: white;
 }
 
 .textoCupon2{
     font-size: 3rem;
-    color: black;
+    color: white;
 }
 
 .textoCupon3{
     font-size: 2.7rem;
     color: white;
+}
+
+.textCupon{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 800;
 }
 
 .titulos{
