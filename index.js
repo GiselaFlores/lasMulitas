@@ -15,6 +15,23 @@ getDownloadURL(imageRef)
 
 
 
+window.onscroll = function(){
+    if(document.documentElement.scrollTop > 100){
+        document.querySelector('.go-top-container').classList.add('show');
+    }else{
+        document.querySelector('.go-top-container').classList.remove('show');
+    }
+}
+
+document.querySelector('.go-top-container')
+.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    })
+});
+
+
 const btnAnterior = document.getElementById("btnAnterior");
 const btnSiguiente = document.getElementById("btnSiguiente");
 const contenedor = document.getElementById("contenedor");
