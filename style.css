@@ -110,7 +110,7 @@
 
 .fondoPedido{
     background-color: brown;
-    height: auto;
+    height:auto;
     padding: 1.5rem;
 }
 
@@ -124,8 +124,8 @@
 /* GOTOP */
 .go-top-container{
     position: fixed;
-    bottom: 4rem;
-    right: 4rem;
+    bottom: 2rem;
+    right: 2rem;
     width: 6.6rem;
     height: 6.6rem;
     z-index: -1;
@@ -211,8 +211,8 @@
 }
 
 .margenAclaraciones{
-    width: 50rem;
-    height: 5rem;
+    width: 25rem;
+    height: 3rem;
 }
 
 .nuestroCarrusel{
@@ -233,6 +233,11 @@
 
 .pading{
     padding: 0 !important;
+}
+
+.pedido{
+    display: grid;
+    
 }
     
 .precio{
@@ -398,7 +403,7 @@ color: var(--blanco);
     }
 
     .ordenNew{
-        display:block
+        display:block;
     }
 
     .textoCards{

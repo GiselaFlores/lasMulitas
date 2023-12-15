@@ -51,7 +51,7 @@
     </nav>
   </header>
 
-    <main class="container">
+    <main class="">
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -550,8 +550,8 @@
       <div>
         <h1 id="Pedidos" class="alineacion colorTexto mb-5 mt-5"> HACÉ TU PEDIDO</h1>
       </div>
-
-    <div class="">
+  
+    <div class="colorTexto pedido ">
       <div class="orden">
         <div class="">
           <h1 class="fondoPedido alineacion">ENTRADA</h1>
@@ -651,41 +651,42 @@
               </div> 
             </div>
           </div>
-
-          <div class="">
-            <h1 class="fondoPedido alineacion">BEBIDA</h1>
-            <div class="anchoTextoMenuPedir orden">
-              <div>
-                <input type="checkbox" id="entrada1" value="primer_checkbox" />
-                <label class="colorTexto" for="entrada1">Agua</label> <br>
-                
-                <input type="checkbox" id="entrada2" value="segundo_checkbox" />
-                <label class="colorTexto" for="entrada2">Gaseosa</label> <br>
-                
-                <input type="checkbox" id="entrada3" value="tercer_checkbox" />
-                <label class="colorTexto" for="entrada3">Agua Saborizada</label> <br>
-                
-                <input type="checkbox" id="entrada4" value="cuarto_checkbox" />
-                <label class="colorTexto" for="entrada4">Agua con gas</label> <br>
-              </div> 
-              
-              <div>
-                <input type="checkbox" id="entrada5" value="5" />
-                <label class="colorTexto" for="entrada5">Vino</label> <br>
-                
-                <input type="checkbox" id="entrada6" value="6" />
-                <label class="colorTexto" for="entrada6">Cerveza Rubia</label> <br>
-                
-                <input type="checkbox" id="entrada7" value="7" />
-                <label class="colorTexto" for="entrada7">Cerveza Negra</label> <br>
-                
-                <input type="checkbox" id="entrada8" value="8" />
-                <label class="colorTexto" for="entrada8">Cerveza Roja</label> <br>
-              </div> 
-            </div>
-          </div>
       </div>
+
       <div class="orden">  
+        <div class="mt-5 mb-5">
+          <h1 class="fondoPedido alineacion">BEBIDA</h1>
+          <div class="anchoTextoMenuPedir orden">
+            <div>
+              <input type="checkbox" id="entrada1" value="primer_checkbox" />
+              <label class="colorTexto" for="entrada1">Agua</label> <br>
+              
+              <input type="checkbox" id="entrada2" value="segundo_checkbox" />
+              <label class="colorTexto" for="entrada2">Gaseosa</label> <br>
+              
+              <input type="checkbox" id="entrada3" value="tercer_checkbox" />
+              <label class="colorTexto" for="entrada3">Agua Saborizada</label> <br>
+              
+              <input type="checkbox" id="entrada4" value="cuarto_checkbox" />
+              <label class="colorTexto" for="entrada4">Agua con gas</label> <br>
+            </div> 
+            
+            <div>
+              <input type="checkbox" id="entrada5" value="5" />
+              <label class="colorTexto" for="entrada5">Vino</label> <br>
+              
+              <input type="checkbox" id="entrada6" value="6" />
+              <label class="colorTexto" for="entrada6">Cerveza Rubia</label> <br>
+              
+              <input type="checkbox" id="entrada7" value="7" />
+              <label class="colorTexto" for="entrada7">Cerveza Negra</label> <br>
+              
+              <input type="checkbox" id="entrada8" value="8" />
+              <label class="colorTexto" for="entrada8">Cerveza Roja</label> <br>
+            </div> 
+          </div>
+        </div>
+        
         <div class="mt-5 mb-5">
           <h1 class="fondoPedido alineacion">ADICIONALES</h1>
           <div class="anchoTextoMenuPedir orden">
@@ -695,6 +696,10 @@
               
               <input type="checkbox" id="entrada2" value="segundo_checkbox" />
               <label class="colorTexto" for="entrada2">Papas Fritas</label> <br>
+
+              <input type="checkbox" id="entrada5" value="5" />
+              <label class="colorTexto" for="entrada5">Papas al Horno</label> <br>
+
             </div>
             <div>  
               <input type="checkbox" id="entrada3" value="tercer_checkbox" />
@@ -704,18 +709,19 @@
               <label class="colorTexto" for="entrada4">Ensalada</label> <br>
             </div> 
             
-            <div>
-              <input type="checkbox" id="entrada5" value="5" />
-              <label class="colorTexto" for="entrada5">Papas al Horno</label> <br>
-            </div> 
           </div>
         </div>
 
         <div class="mt-5 mb-5">
-          <h1 class="fondoPedido alineacion">ACLARACIONES DEL PEDIDO</h1>
-          <div class="anchoTextoMenuPedir orden"></div>
-            <input class="margenAclaraciones" type="text" name="nombre" id="nombre" placeholder="Aclaraciones"><br><!--Pass, email, etc-->
-          </div>
+          <h1 class="fondoPedido alineacion">Datos Cliente</h1>
+          
+            <input class=" margenAclaraciones" type="text" placeholder="Indica aquí tu Nombre y Apellido" /></label><br />
+            <input class=" margenAclaraciones" type="text" placeholder="Indica aquí tu Dirección" /></label><br />
+            <input class=" margenAclaraciones" type="email" placeholder="Indica aquí tu código de Cliente" /></label><br />
+            <input maxlength="80"  class=" margenAclaraciones" type="text" name="nombre" id="nombre" placeholder="Indica si tienes algun comentarios sobre tu pedido"></label><br />
+            <input class=" margenAclaraciones" type="submit" value="Enviar Pedido"></label><br />
+
+        </div>
         </div>
       </div>
     </div>
