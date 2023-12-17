@@ -15,23 +15,8 @@ getDownloadURL(imageRef)
 
 
 
-const btnAnterior = document.getElementById("btnAnterior");
-const btnSiguiente = document.getElementById("btnSiguiente");
 const contenedor = document.getElementById("contenedor");
 let pagina = 1;
-
-btnAnterior.addEventListener("click", ()=>{
-    if(pagina > 1){
-        pagina -= 1;
-        cargarPlatos();
-    }
-})
-btnSiguiente.addEventListener("click", ()=>{
-    if(pagina < 1000){
-        pagina += 1;
-        cargarPlatos();
-    }
-})
 
 const cargarPlatos = async()=>{
 

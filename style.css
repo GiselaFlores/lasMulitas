@@ -20,6 +20,10 @@
     display: flex;
     justify-content: space-between;
 }
+.ordenPropiedadesComida{
+    display: flex;
+    justify-content: center; 
+}
 .ordenNoticias{
     display: flex;
     justify-content: space-around;
@@ -199,7 +203,9 @@ color: var(--blanco);
 font-size: 5rem;
 color: var(--blanco);
 }
-
+.TextoCuponPrincipal{
+    font-size: 50px;
+}
 .textoCupon{
     font-size: 10rem;
     color: black;
@@ -224,6 +230,11 @@ color: var(--blanco);
 .margenRedes{
     margin-right: 60px !important;
 }
+.tamañoImgRedes{
+    height: 500px;
+    width: 500px;
+}
+
 .margenCupon{
     margin-top: 200px;
 }
@@ -270,42 +281,16 @@ width: 10rem;
 	-ms-grid: grid;
 	gap: 40px;
 }
-
-.contenedor .pelicula {
-	text-align: center;
-}
-
-.contenedor .pelicula .titulo {
-	font-size: 16px;
-	font-weight: 600;
-}
-
-.contenedor .pelicula .poster {
-	width: 100%;
-	margin-bottom: 10px;
-	border-radius: 15px;
-}
 .titulos{
     font-size: 18px;
     font-weight: 800;
     margin-bottom: 10px;
     margin-top: 10px;
 }
-
-.h5titulos{
-    text-align: center;
-    font-size: 22px;
-    font-weight: 800;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
 .descripcion{
     text-align: left;
 }
-.TextoCuponPrincipal{
-    font-size: 50px;
-}
+
 
 /* Media Query*/
 @media screen and (min-width:200px) and (max-width:990px){
@@ -329,7 +314,7 @@ width: 10rem;
         font-size: 0.9rem !important;
     }
     .textoInfo{
-        font-size: 0.9rem !important;
+        font-size: 1rem !important;
     }
 
     .textoNegro{
@@ -388,5 +373,39 @@ width: 10rem;
     .textoCupon3{
         font-size: 1.2rem;
         color: white;
+    }
+    .tituloNosotros{
+        color: yellow;
+        font-size: 2.5rem;
+    }
+    .textoNosotros{
+        font-size: 1rem;
+        color: var(--blanco);
+    }
+    .textoMap{
+        font-size: 2.5rem;
+        color: var(--blanco);
+    }
+    .textoNoticias{
+        font-size: 1rem;
+        padding: .5rem;
+    }
+    .tamañoImgRedes{
+        height: 200px;
+        width: 200px;
+    }
+    .margenRedes{
+        margin-right: 20px !important;
+    }
+    .contenedor {
+        width: 40%;
+        max-width: 1000px;
+        margin: 40px auto 100px auto;
+    
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        -ms-grid-columns: repeat(2, 1fr);
+        -ms-grid: grid;
+        gap: 40px;
     }
 }
