@@ -132,39 +132,37 @@ width: 42rem;
 .anchoTextoUbicacion{
     width: 30rem;
 }
-.anchoTextoCupon{
-    width: 30rem;
-}
-.anchoTextoMenuPedir{
-    width: 25rem;
-}
-.anchoTextoMenuPedir2{
-    width: auto;
-}
+
+
+
 .anchoForm{
     width: 50rem;
 }
 
-.pading{
-padding: 0 !important;
-}
-.precio{
-background-color: var(--naranja);
-color: white;
-border-color: black;
-font-size: 2rem;
-display: block;
-margin: auto;
-margin-top: 2rem;
-}
-.precio:hover{
-pointer-events: none;
-cursor:none;
-}
+
+
+
+/*SECCION MENU SEMANAL*/
 .textoMenu{
 font-size: 1.3rem;
 color: white;
 }
+.precio{
+    background-color: var(--naranja);
+    color: white;
+    border-color: black;
+    font-size: 2rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+}
+.precio:hover{
+    pointer-events: none;
+    cursor:none;
+}
+/*----------------*/
+
+/*SE USA EN DISTINTAS SECCIONES*/
 .textoNegro{.orden2{
     display: flex;
     justify-content: center;
@@ -178,20 +176,20 @@ color: white;
     margin: auto;
     margin-top: 2rem;
 }
+/*--------------------------------*/
+
+/*SECCIÓN DE NUESTRAS PRIORIDADES*/
 .imgTamanioIconos{
 height: 14rem;
 width: 14rem;
 padding: 0.2rem;
 }
+/*-----------------------*/
 
-.tamañoChicoCards{
-height: 10rem;
-width: 10rem;
-}
-.tamañoChicoCards2{
-    height: 12rem;
-    width: 7rem;
-}
+
+
+
+/*SECCIÓN SOBRE NOSOTROS*/
 .tituloNosotros{
 color: yellow;
 font-size: 5rem;
@@ -204,6 +202,9 @@ color: var(--blanco);
 font-size: 5rem;
 color: var(--blanco);
 }
+/*-------------------*/
+
+/*SECCIÓN CUPON*/
 .TextoCuponPrincipal{
     font-size: 50px;
 }
@@ -220,7 +221,15 @@ color: var(--blanco);
     font-size: 2.7rem;
     color: white;
 }
+.margenCupon{
+    margin-top: 200px;
+}
+.anchoTextoCupon{
+    width: 30rem;
+}
+/*---------------------*/
 
+/*SECCIÓN REDES SOCIALES*/
 .margenRedes{
     margin-right: 60px !important;
 }
@@ -228,14 +237,18 @@ color: var(--blanco);
     height: 500px;
     width: 500px;
 }
+/*-----------------*/
 
-.margenCupon{
-    margin-top: 200px;
-}
+
+/*SECCIÓN HACE TU PEDIDO SELECCION DE PEDIDO*/
 .margenAclaraciones{
     width: 50rem;
     height: 5rem;
 }
+.anchoTextoMenuPedir{
+    width: 25rem;
+}
+/*---------------*/
    
 /*FOOTER*/
 .textoFooter2{
@@ -421,3 +434,20 @@ width: 10rem;
         margin-left:112px !important;
     }
 }
+
+/*PARA BORRAR NO SE USA*/
+.tamañoChicoCards{
+    height: 10rem;
+    width: 10rem;
+    }
+    .tamañoChicoCards2{
+        height: 12rem;
+        width: 7rem;
+    }
+.pading{
+        padding: 0 !important;
+}
+.anchoTextoMenuPedir2{
+    width: auto;
+}
+/*---------------------*/
