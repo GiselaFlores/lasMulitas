@@ -9,10 +9,9 @@
 }
 .orden{
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
   
 }
-
 .orden2{
     display: flex;
     justify-content: center;
@@ -20,6 +19,15 @@
 .orden3{
     display: flex;
     justify-content: space-between;
+}
+.ordenNoticias{
+    display: flex;
+    justify-content: space-around;
+  
+}
+.ordenMenuSeleccion{
+    display: flex;
+    justify-content: space-around;
 }
 
 /*Clases de barra de navegacion*/
@@ -243,7 +251,6 @@ color: var(--blanco);
 .imgNews{
 width: 20rem;
 left: 20rem;
-
 }
 
 .separarpalabras{
@@ -295,6 +302,9 @@ width: 10rem;
 
 .descripcion{
     text-align: left;
+}
+.TextoCuponPrincipal{
+    font-size: 50px;
 }
 
 /* Media Query*/
@@ -355,5 +365,28 @@ width: 10rem;
         background-position: center;
         justify-content: center;
         gap: 40px;
+    }
+    .ordenMenuSeleccion{
+        display: block;
+    }
+    .margenAclaraciones{
+        width: 27rem;
+        height: 5rem;
+    }
+    .TextoCuponPrincipal{
+        font-size: 20px;
+    }
+    .textoCupon{
+        font-size: 2rem;
+        color: black;
+    }
+    
+    .textoCupon2{
+        font-size: 1.2rem;
+        color: black;
+    }
+    .textoCupon3{
+        font-size: 1.2rem;
+        color: white;
     }
 }
