@@ -33,6 +33,10 @@
     display: flex;
     justify-content: space-around;
 }
+.ordenFooter{
+    display: flex;
+    justify-content: space-around;
+}
 
 /*Clases de barra de navegacion*/
 :root{
@@ -105,10 +109,7 @@ justify-content: center;
     background-color: gray;
     height: auto;
 }
-.fondoFooter{
-    background-color: orangered;
-    height: 16rem;
-}
+
 .textoCards{
 color: white;
 font-size: 1.8rem !important;
@@ -219,14 +220,7 @@ color: var(--blanco);
     font-size: 2.7rem;
     color: white;
 }
-.textoFooter{
-    font-size: 5rem;
-    color: black;
-}
-.textoFooter2{
-    color: black;
-    margin-left:255px !important;
-}
+
 .margenRedes{
     margin-right: 60px !important;
 }
@@ -242,6 +236,12 @@ color: var(--blanco);
     width: 50rem;
     height: 5rem;
 }
+   
+/*FOOTER*/
+.textoFooter2{
+    color: black;
+    margin-left:255px !important;
+}
 .altoImgFooter{
     height: 12rem;
 }
@@ -249,15 +249,23 @@ color: var(--blanco);
     height: 6rem;
     width: 5rem;
 }
+.fondoFooter{
+    background-color: orangered;
+    height: 16rem;
+}
+/*---------*/
+
+/*MEDIO DE PAGO*/
 .redondo{
     display: block;
     width: 100px;
     height: 100px;
     border-radius: 50%;
-  }
+}
 .margenBotonRedondo{
     margin: 30px !important;
-  }
+}
+/*------------*/
 
 .imgNews{
 width: 20rem;
@@ -269,7 +277,7 @@ padding: 1.5rem;
 width: 10rem;
 }
 
-
+/*PLATOS POPULARES*/
 .contenedor {
 	width: 90%;
 	max-width: 1000px;
@@ -290,7 +298,7 @@ width: 10rem;
 .descripcion{
     text-align: left;
 }
-
+/*------------------*/
 
 /* Media Query*/
 @media screen and (min-width:200px) and (max-width:990px){
@@ -342,37 +350,15 @@ width: 10rem;
         display: none;
     }
     .contenedor {
-        width: 100%;
-        max-width: auto;
-        margin-block: 2rem;
-        display:list-item;
-        color: rgb(0, 0, 0);
-        background-position: center;
+        width: 40%;
+        max-width: 1000px;
+        margin: 40px auto 100px auto;
         justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        -ms-grid-columns: repeat(2, 1fr);
+        -ms-grid: grid;
         gap: 40px;
-    }
-    .ordenMenuSeleccion{
-        display: block;
-    }
-    .margenAclaraciones{
-        width: 27rem;
-        height: 5rem;
-    }
-    .TextoCuponPrincipal{
-        font-size: 20px;
-    }
-    .textoCupon{
-        font-size: 2rem;
-        color: black;
-    }
-    
-    .textoCupon2{
-        font-size: 1.2rem;
-        color: black;
-    }
-    .textoCupon3{
-        font-size: 1.2rem;
-        color: white;
     }
     .tituloNosotros{
         color: yellow;
@@ -397,15 +383,41 @@ width: 10rem;
     .margenRedes{
         margin-right: 20px !important;
     }
-    .contenedor {
-        width: 40%;
-        max-width: 1000px;
-        margin: 40px auto 100px auto;
+    .TextoCuponPrincipal{
+        font-size: 20px;
+    }
+    .textoCupon{
+        font-size: 2rem;
+        color: black;
+    }
     
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        -ms-grid-columns: repeat(2, 1fr);
-        -ms-grid: grid;
-        gap: 40px;
+    .textoCupon2{
+        font-size: 1.2rem;
+        color: black;
+    }
+    .textoCupon3{
+        font-size: 1.2rem;
+        color: white;
+    }
+    .ordenMenuSeleccion{
+        display: block;
+    }
+    .margenAclaraciones{
+        width: 27rem;
+        height: 5rem;
+    }
+    .altoImgFooter{
+        height: 6rem;
+    }
+    .altoAnchoImgFooter{
+        height: 3rem;
+        width: 2rem;
+    }
+    .fondoFooter{
+        height: 10rem;
+    }
+    .textoFooter2{
+        color: black;
+        margin-left:112px !important;
     }
 }
