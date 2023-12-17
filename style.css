@@ -412,37 +412,3 @@ left: 20rem;
         margin-left:112px !important;
     }
 }
-
-/*PARA BORRAR NO SE USA*/
-.tamañoChicoCards{
-    height: 10rem;
-    width: 10rem;
-}
-    .tamañoChicoCards2{
-        height: 12rem;
-        width: 7rem;
-}
-.pading{
-        padding: 0 !important;
-}
-.anchoTextoMenuPedir2{
-    width: auto;
-}
-.separarpalabras{
-    padding: 1.5rem;
-    width: 10rem;
-}
-
-.nuestroCarrusel{
-    padding: 0 !important;
-    margin-left: 10% !important;
-}
-.flexdemenu{
-    display: flex;
-    justify-content: end !important;
-}
-.orden2{
-    display: flex;
-    justify-content: center;
-}
-/*---------------------*/
