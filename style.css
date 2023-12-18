@@ -105,7 +105,10 @@ background-color: orangered;
 .orden{
     display: flex;
     justify-content: space-around;
-}  
+} 
+.tamañoFuenteTitulos{
+    font-size: 5rem;
+} 
 /*--------------------------------*/
 
 
@@ -157,6 +160,13 @@ color: var(--blanco);
 .ordenRedes{
     display: flex;
     justify-content: center;
+}
+.margenUbicacion{
+    margin-left: 400px !important;
+}
+.tamañoUbicacion{
+    height: 400px;
+    width: 500px;
 }
 /*-------------------*/
 
@@ -315,6 +325,9 @@ left: 20rem;
     .textoInfo{
         font-size: 1rem !important;
     }
+    .tamañoFuenteTitulos{
+        font-size: 2rem;
+    }
 
     .textoNegro{
         font-size: 1rem!important;
@@ -368,11 +381,18 @@ left: 20rem;
         padding: .5rem;
     }
     .tamañoImgRedes{
-        height: 200px;
+        height: 235px;
         width: 200px;
     }
     .margenRedes{
         margin-right: 20px !important;
+    }
+    .margenUbicacion{
+        margin-left: 20px !important;
+    }
+    .tamañoUbicacion{
+        height: 320px;
+        width: 250px;
     }
     .TextoCuponPrincipal{
         font-size: 20px;
