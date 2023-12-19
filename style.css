@@ -13,7 +13,8 @@
 }
     
 .anchoTextoUbicacion{
-    width: 30rem;
+    width: 35rem;
+    margin-top: 4rem;
 }
 .anchoTextoCupon{
     width: 30rem;
@@ -202,6 +203,13 @@
     left: 20rem;    
 }
 
+.imgMapsContact{
+    width: 20rem;
+    height: 20rem;
+    margin-top: 2rem;
+    margin-left: 9rem;
+}
+
 .margenRedes{
     margin-right: 60px !important;
 }
@@ -304,7 +312,7 @@ width: 10rem;
 
 .tituloNosotros{
 color: yellow;
-font-size: 5rem;
+font-size: 4rem;
 }
 
 .textoNosotros{
@@ -313,8 +321,9 @@ color: var(--blanco);
 }
 
 .textoMap{
-font-size: 5rem;
+font-size: 4rem;
 color: var(--blanco);
+margin:0;
 }
 
 .textoCupon{
