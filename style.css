@@ -75,7 +75,7 @@ color: white;
     margin-top: 2rem;
 }
 .fondoPedido{
-    background-color: gray;
+    background-color: #AD4119;
     height: auto;
 }
 .fondoNoticias{
@@ -92,6 +92,9 @@ background-color: orangered;
 }
 .colorTexto{
     color: white;
+}
+.colorTexto2{
+    color: black;
 }
 .fondoBody{
     background-color: black;
@@ -315,7 +318,7 @@ left: 20rem;
         width: 20rem;
         left: 20rem;
     }
-
+    
     .anchoCards{
         width: 7rem;
     }
