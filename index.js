@@ -15,40 +15,8 @@ getDownloadURL(imageRef)
 
 
 
-window.onscroll = function(){
-    if(document.documentElement.scrollTop > 200){
-        document.querySelector('.go-top-container').classList.add('show');
-    }else{
-        document.querySelector('.go-top-container').classList.remove('show');
-    }
-}
-
-document.querySelector('.go-top-container')
-.addEventListener('click', () => {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    })
-});
-
-
-const btnAnterior = document.getElementById("btnAnterior");
-const btnSiguiente = document.getElementById("btnSiguiente");
 const contenedor = document.getElementById("contenedor");
 let pagina = 1;
-
-btnAnterior.addEventListener("click", ()=>{
-    if(pagina > 1){
-        pagina -= 1;
-        cargarPlatos();
-    }
-})
-btnSiguiente.addEventListener("click", ()=>{
-    if(pagina < 1000){
-        pagina += 1;
-        cargarPlatos();
-    }
-})
 
 const cargarPlatos = async()=>{
 
@@ -69,8 +37,7 @@ const cargarPlatos = async()=>{
                     <div class="card-body">
                         <img src="${platos.enlaceFoto}" class="card-img-top" alt="...">
                         <h5 class="card-title titulos">${platos.nombrePlato}</h5>
-                        <p class="card-text descripcion">Descripcion: ${platos.enlaceFoto}</p>
-                        <p class="card-text descripcion">Descripcion: ${platos.descripcion}</p>
+                        <ph1 class="card-text descripcion">Descripcion: ${platos.descripcion}</p>
                         <p class="card-text descripcion">Ingredientes: ${platos.ingredientes}</p>
                         <p class="card-text descripcion">Elaboración: ${platos.elaboracion}</p>
                         <p class="card-text descripcion">Calorias: ${platos.calorias}</p>

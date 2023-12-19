@@ -1,57 +1,284 @@
-/** #flexdemenu{
-    display: flex;
-    justify-content: end !important;
-}**/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/*Clases de barra de navegacion*/
+:root{
+	--naranja: #AD4119;
+	--blanco: white;
+}
+/*----------------------------------------------*/
 
-.anchoTextoNoticias{
-    width: 42rem;
-}
-    
-.anchoTextoUbicacion{
-    width: 35rem;
-    margin-top: 4rem;
-}
-.anchoTextoCupon{
-    width: 30rem;
-}
-.anchoTextoMenuPedir{
-    width: 25rem;
-}
-.anchoTextoMenuPedir2{
-    width: auto;
-}
+/*SECCIÓN MENU DE BUSQUEDA*/
+.fondoCuadroMenu a{
+color: white !important;
+font-weight: bold;
+font-size: 1.5rem;
 
-.alineacion{
-    text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 0rem;
 }
-
-.anchoCards{
-    width: 18rem;
-}    
-
+.fondoMenu{
+    background-color: var(--naranja);
+    width: 32rem;
+}
 .colorTitulo{
     color: #AD4119 !important;
     font-size:  4rem;
 }
+/*-----------------*/
 
-.colorTexto{
-    color: rgb(255, 255, 255);
+/*SECCIÓN MENU PLATOS*/
+.textoInfo{
+color: white;
+font-size: 2.5rem;
+text-align: center;
 }
+.ordenPropiedadesComida{
+    display: flex;
+    justify-content: center; 
+}
+/*--------------*/
 
-.colorForm{
+
+/*SECCIÓN MENU SEMANAL*/
+.textoMenu{
+font-size: 1.3rem;
+color: white;
+}
+.precio{
+    background-color: var(--naranja);
     color: white;
-    font-size:large;
-    font-weight: bolder;
-    background-color: orangered;
+    border-color: black;
+    font-size: 2rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+}
+.precio:hover{
+    pointer-events: none;
+    cursor:none;
+}
+/*----------------*/
+
+/*SE USA EN DISTINTAS SECCIONES*/
+.textoNegro{.orden2{
+    display: flex;
+    justify-content: center;
 }
 
+    background-color: var(--naranja);
+    color: black;
+    border-color: black;
+    font-size: 2rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+}
+.fondoPedido{
+    background-color: gray;
+    height: auto;
+}
+.fondoNoticias{
+    background-color: orangered;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.colorForm{
+color: white;
+font-size:large;
+font-weight: bolder;
+background-color: orangered;
+}
+.colorTexto{
+    color: white;
+}
+.fondoBody{
+    background-color: black;
+}
+.alineacion{
+    text-align: center;
+}
+.fondoTransparente{
+    background-color: transparent !important;
+}  
+.orden{
+    display: flex;
+    justify-content: space-around;
+} 
+.tamañoFuenteTitulos{
+    font-size: 5rem;
+} 
+/*--------------------------------*/
+
+
+/*SECCIÓN DE NUESTRAS PRIORIDADES*/
+.imgTamanioIconos{
+height: 14rem;
+width: 14rem;
+padding: 0.2rem;
+}
+.anchoCards{
+    width: 18rem;
+}
+.textoCards{
+    color: white;
+    font-size: 1.8rem !important;
+}
+/*-----------------------*/
+
+
+
+
+/*SECCIÓN SOBRE NOSOTROS Y REDES SOCIALES*/
+.tituloNosotros{
+color: yellow;
+font-size: 5rem;
+}
+.textoNosotros{
+font-size: 2.5rem;
+color: var(--blanco);
+}
+.textoMap{
+font-size: 5rem;
+color: var(--blanco);
+}
+.anchoTextoUbicacion{
+    width: 30rem;
+}
+.margenRedes{
+    margin-right: 60px !important;
+}
+.tamañoImgRedes{
+    height: 500px;
+    width: 500px;
+}
+.textoNoticias{
+    font-size: 2rem;
+    padding: .5rem;
+}
+.ordenRedes{
+    display: flex;
+    justify-content: center;
+}
+.margenUbicacion{
+    margin-left: 400px !important;
+}
+.tamañoUbicacion{
+    height: 400px;
+    width: 500px;
+}
+/*-------------------*/
+
+/*SECCIÓN CUPON*/
+.TextoCuponPrincipal{
+    font-size: 50px;
+}
+.textoCupon{
+    font-size: 10rem;
+    color: black;
+}
+
+.textoCupon2{
+    font-size: 3rem;
+    color: black;
+}
+.textoCupon3{
+    font-size: 2.7rem;
+    color: white;
+}
+.margenCupon{
+    margin-top: 200px;
+}
+.anchoTextoCupon{
+    width: 30rem;
+}
+.anchoTextoNoticias{
+    width: 42rem;
+}
+.ordenNoticias{
+    display: flex;
+    justify-content: space-around;
+}
+/*---------------------*/
+
+
+/*SECCIÓN HACE TU PEDIDO SELECCIÓN DE PEDIDO*/
+.margenAclaraciones{
+    width: 50rem;
+    height: 5rem;
+}
+.anchoTextoMenuPedir{
+    width: 25rem;
+}
+.ordenMenuSeleccion{
+    display: flex;
+    justify-content: space-around;
+}
+/*---------------*/
+   
+/*SECCIÓN FOOTER*/
+.textoFooter2{
+    color: black;
+    margin-left:255px !important;
+}
+.altoImgFooter{
+    height: 12rem;
+}
+.altoAnchoImgFooter{
+    height: 6rem;
+    width: 5rem;
+}
+.fondoFooter{
+    background-color: orangered;
+    height: 16rem;
+}
+.ordenFooter{
+    display: flex;
+    justify-content: space-around;
+}
+.ordenRedesFooter{
+    display: flex;
+    justify-content: space-between;
+}
+/*---------*/
+
+
+/*SECCIÓN DATOS DE ENTREGA*/
+.anchoForm{
+    width: 50rem;
+}
+.ordenDatoEntrega{
+    display: flex;
+    justify-content: space-between;
+}
+/*------------------*/
+
+/*SECCIÓN MEDIO DE PAGO*/
+.redondo{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.margenBotonRedondo{
+    margin: 30px !important;
+}
+.ordenMedioPago{
+    display: flex;
+    justify-content: center;
+}
+/*------------*/
+
+/*SECCIÓN NOVEDADES*/
+.imgNews{
+width: 20rem;
+left: 20rem;
+}
+/*---------------*/
+
+
+/*SECCIÓN PLATOS POPULARES*/
 .contenedor {
 	width: 90%;
 	max-width: 1000px;
@@ -63,367 +290,145 @@
 	-ms-grid: grid;
 	gap: 40px;
 }
-
-.contenedor .pelicula {
-	text-align: center;
-}
-
-.contenedor .pelicula .titulo {
-	font-size: 16px;
-	font-weight: 600;
-}
-
-.contenedor .pelicula .poster {
-	width: 100%;
-	margin-bottom: 10px;
-	border-radius: 15px;
-}
-
-.descripcion{
-    text-align: left;
-}
-
-.flexdemenu{
-    display: flex;
-    justify-content: end !important;
-}
-
-.fondoMenu{
-/*background-color: rgb(128, 115, 0);*/
-    background-color: var(--naranja);
-    width: 32rem;
-
-}
-
-.fondoCuadroMenu a{
-    color: white !important;
-    font-weight: bold;
-    font-size: 1.5rem;
-}
-
-.fondoTransparente{
-    background-color: transparent !important;
-}
-
-.fondoBody{
-    background-color: black;
-}
-
-.fondoPedido{
-    background-color: brown;
-    height:auto;
-    padding: 1.5rem;
-}
-
-.fondoNoticias{
-    background-color: orangered;
-    height: auto;
-    display: flex;
-    justify-content: center;
-}
-
-/* GOTOP */
-.go-top-container{
-    position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    width: 6.6rem;
-    height: 6.6rem;
-    z-index: -1;
-}
-
-.go-top-button{
-    width: 0rem;
-    height: 0rem;
-    background: brown;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: .2s;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-}
-.go-top-button i{
-    position: absolute;
-    font-size: 1.7rem;
-    top: 48%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    color: #fff;
-    transition: .2s;
-}
-
-.show{
-    z-index: 10;
-}
-.show .go-top-button{
-    animation: popup .3s ease-in-out;
-    width: 5.6rem;
-    height: 5.6rem;
-    z-index: 11;
-}
-
-.show i{
-    transform: translate(-50%, -50%) scale(1);
-}
-
-@keyframes popup{
-    0%{
-        width: 0rem;
-        height: 0rem;
-    }
-    50%{
-        width: 8rem;
-        height: 8rem;
-    }
-    100%{
-        width: 5.6rem;
-        height: 5.6rem;
-    }
-}
-/* FIN GOTOP */
-
-.h5titulos{
-    text-align: center;
-    font-size: 22px;
-    font-weight: 800;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-.imgTamanioIconos{
-    height: 14rem;
-    width: 14rem;
-    padding: 0.2rem;
-}
-
-.imgNews{
-    width: 20rem;
-    left: 20rem;    
-}
-
-.imgMapsContact{
-    width: 20rem;
-    height: 20rem;
-    margin-top: 2rem;
-    margin-left: 9rem;
-}
-
-.margenRedes{
-    margin-right: 60px !important;
-}
-
-.margenCupon{
-    margin-top: 200px;
-}
-
-.margenAclaraciones{
-    width: 25rem;
-    height: 3rem;
-}
-
-.nuestroCarrusel{
-    padding: 0 !important;
-    margin-left: 10% !important;
-}
-
-.orden{
-    display: flex;
-    justify-content: space-around
-  
-}
-
-.orden2{
-    display: flex;
-    justify-content: center;
-}
-
-.pading{
-    padding: 0 !important;
-}
-
-.pedido{
-    display: grid;
-    
-}
-    
-.precio{
-    background-color: var(--naranja);
-    color: white;
-    border-color: black;
-    font-size: 2rem;
-    display: block;
-    margin: auto;
-    margin-top: 2rem;
-}
-    
-.precio:hover{
-    pointer-events: none;
-    cursor:none;
-}
-    
-/*Clases de barra de navegacion*/
-:root{
---naranja: #AD4119;
---blanco: white;
-}
-
-.separarpalabras{
-    padding: 1.5rem;
-    width: 10rem;
-}
-
-.textoCards{
-color: white;
-font-size: 1.8rem !important;
-}
-
-.textoInfo{
-color: white;
-font-size: 2.5rem;
-text-align: center;
-}
-
-.textoNoticias{
-font-size: 2rem;
-padding: .5rem;
-}
-
-.textoMenu{
-font-size: 1.3rem;
-color: white;
-}
-
-.textoNegro{
-    background-color: var(--naranja);
-    color: black;
-    border-color: black;
-    font-size: 2rem;
-    display: block;
-    margin: auto;
-    margin-top: 2rem;
-}
-
-.tamañoChicoCards{
-height: 10rem;
-width: 10rem;
-}
-
-.tituloNosotros{
-color: yellow;
-font-size: 4rem;
-}
-
-.textoNosotros{
-font-size: 2.5rem;
-color: var(--blanco);
-}
-
-.textoMap{
-font-size: 4rem;
-color: var(--blanco);
-margin:0;
-}
-
-.textoCupon{
-    font-size: 5rem;
-    color: white;
-}
-
-.textoCupon2{
-    font-size: 3rem;
-    color: white;
-}
-
-.textoCupon3{
-    font-size: 2.7rem;
-    color: white;
-}
-
-.textCupon{
-    text-align: center;
-    font-size: 5rem;
-    font-weight: 800;
-}
-
 .titulos{
     font-size: 18px;
     font-weight: 800;
     margin-bottom: 10px;
     margin-top: 10px;
 }
+.descripcion{
+    text-align: left;
+}
+/*------------------*/
 
-
-
-/* Media Query*/
+/* MEDIA QUERY*/
 @media screen and (min-width:200px) and (max-width:990px){
-    .anchoCards{
-        width: 7rem;
+    div#navbarNavAltMarkup{
+        justify-content: start !important;
     }
-
+    .fondoCuadroMenu{
+        background-color: rgba(0, 0, 255, 0);
+        width: 90rem;
+    }
     .colortitulo{
         color: rgb(128, 115, 0);
         width: 20rem;
         left: 20rem;
     }
 
-    /*.contenedor {
-        width: 100%;
-        max-width: auto;
-        margin-block: 2rem;
-        display:list-item;
-        color: rgb(0, 0, 0);
-        background-position: center;
-        justify-content: center;
-        gap: 40px;
-    }*/
-
-    div#navbarNavAltMarkup{
-        justify-content: start !important;
+    .anchoCards{
+        width: 7rem;
     }
-
-    .fondoCuadroMenu{
-        background-color: rgba(0, 0, 255, 0);
-        width: 90rem;
-    }
-    
-    .fondoNoticias{
-        display: flex;
-        justify-content: center;
-    }
-
-    .fdoBtnMenu{
-        background:#AD4119;
-    }
-
-    .fueraMulita{
-        display: none;
-    }
-
-    .imgTamanioIconos{
-        height: auto;
-        width: auto;
-    }
-
-    .imgSello{
-        width: 15rem;
-        left: 15rem;
-    }
-
-    .ordenNew{
-        display:block;
-    }
-
     .textoCards{
         font-size: 0.9rem !important;
     }
-
     .textoInfo{
-        font-size: 0.9rem !important;
+        font-size: 1rem !important;
+    }
+    .tamañoFuenteTitulos{
+        font-size: 2rem;
     }
 
     .textoNegro{
         font-size: 1rem!important;
+    }
+    .fondoNoticias{
+        display: flex;
+        justify-content: center;
+    }
+    .fdoBtnMenu{
+        background:#AD4119;
+    }
+    .imgTamanioIconos{
+        height: auto;
+        width: auto;
+    }
+    .imgSello{
+        width: 15rem;
+        left: 15rem;
+    }
+    .ordenNew{
+        display:block
+    }
+    .fueraMulita{
+        display: none;
+    }
+    .contenedor {
+        width: 40%;
+        max-width: 1000px;
+        margin: 40px auto 100px auto;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        -ms-grid-columns: repeat(2, 1fr);
+        -ms-grid: grid;
+        gap: 40px;
+    }
+    .tituloNosotros{
+        color: yellow;
+        font-size: 2.5rem;
+    }
+    .textoNosotros{
+        font-size: 1rem;
+        color: var(--blanco);
+    }
+    .textoMap{
+        font-size: 2.5rem;
+        color: var(--blanco);
+    }
+    .textoNoticias{
+        font-size: 1rem;
+        padding: .5rem;
+    }
+    .tamañoImgRedes{
+        height: 235px;
+        width: 200px;
+    }
+    .margenRedes{
+        margin-right: 20px !important;
+    }
+    .margenUbicacion{
+        margin-left: 20px !important;
+    }
+    .tamañoUbicacion{
+        height: 320px;
+        width: 250px;
+    }
+    .TextoCuponPrincipal{
+        font-size: 20px;
+    }
+    .textoCupon{
+        font-size: 2rem;
+        color: black;
+    }
+    
+    .textoCupon2{
+        font-size: 1.2rem;
+        color: black;
+    }
+    .textoCupon3{
+        font-size: 1.2rem;
+        color: white;
+    }
+    .ordenMenuSeleccion{
+        display: block;
+    }
+    .margenAclaraciones{
+        width: 27rem;
+        height: 5rem;
+    }
+    .altoImgFooter{
+        height: 6rem;
+    }
+    .altoAnchoImgFooter{
+        height: 3rem;
+        width: 2rem;
+    }
+    .fondoFooter{
+        height: 10rem;
+    }
+    .textoFooter2{
+        color: black;
+        margin-left:112px !important;
     }
 }
