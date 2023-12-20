@@ -227,6 +227,10 @@ color: var(--blanco);
     color: black;
     margin-left:255px !important;
 }
+.TextoFooter3{
+    color: black;
+    font-size: 1.7rem;
+}
 .altoImgFooter{
     height: 12rem;
 }
@@ -500,5 +504,9 @@ left: 20rem;
     .textoFooter2{
         color: black;
         margin-left:112px !important;
+    }
+    .TextoFooter3{
+        color: black;
+        font-size: 1.4rem;
     }
 }
