@@ -56,4 +56,65 @@ const cargarPlatos = async()=>{
 }
 cargarPlatos();
 
-  
+const sobreNosotros = () => {
+    Swal.fire({
+        title: "Sobre Nosotros",
+        imageUrl: './img/insti.jpg',
+        imageWidth: 400,
+        imageHeight: 400,
+        imageAlt: 'instituto N°28 25 de Mayo',
+        html: `
+        <div style="text-align: left; font-size: medium";>
+        <strong>Materia:</strong> Diseño de sistemas Web.<br>
+        <strong>Profesora:</strong> Gisela FLores. <br>
+        <strong>Alumnos:</strong> Valensisi Claudio, Ruiz Justiniano, Rodríguez Juan.
+        <strong>Curso:</strong> 3ro <br>
+        <strong>Año:</strong> 2023
+        </div>
+        `,
+      });
+  }
+
+  const alertaEfectivo = () => {
+    Swal.fire({
+        title: "Elegiste pagar con dinero en efectivo",
+        imageUrl: './img/dinero.png',
+        imageWidth: 250,
+        imageHeight: 250,
+        imageAlt: 'dinero en efectivo',
+      });
+  }
+
+const alertaTarjeta = () => {
+    Swal.fire({
+        title: "Elegiste pagar con tarjeta",
+        imageUrl: './img/tarjeta.png',
+        imageWidth: 250,
+        imageHeight: 250,
+        imageAlt: 'tarjeta o débito',
+      });
+  }
+
+const alertaPedido = () => {
+    Swal.fire({
+      title: 'Muchas gracias por tu compra!',
+      text: 'En breve recibiras una notificación',
+      imageUrl: './img/ok.png',
+      imageWidth: 200,
+      imageHeight: 200,
+      imageAlt: 'ok',
+    })
+    }
+    
+
+     
+const alertaAgregar = () => {
+        Swal.fire({
+            title: 'Agregado',
+            text: 'Este producto se agregó a tu pedido',
+            imageUrl: './img/ok.png',
+            imageWidth: 200,
+            imageHeight: 200,
+            imageAlt: 'ok',
+          })
+          }

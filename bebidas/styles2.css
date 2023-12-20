@@ -1,0 +1,155 @@
+body{
+    background-image: url(./assets/backBebida.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    background-attachment: fixed;
+}
+
+.fondoMenu{
+    background-color: var(--naranja);
+    width: 32rem;
+}
+.colorTitulo{
+    color: #AD4119 !important;
+    font-size:  4rem;
+}
+/*-----------------*/
+
+.navegacion{
+    background-color: #e5501ec1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgBd{
+    width: 15%;
+    margin: 2.5em;
+    margin-left: -10em;
+    border: 3px solid white;
+}
+
+h1{
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+    color: transparent;
+    letter-spacing: 2px;
+    font-size: 4rem;
+}
+
+h2{
+    text-align: center;
+    margin-top: 3rem;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+
+p{
+    padding: .5rem;
+    border-radius: 15px;
+    background-color: #ff410213;
+}
+
+.p1{
+    color: white;
+}
+
+h5{
+    padding: 5px 3px;
+}
+/*
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}*/
+
+.contenedor{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card{
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.566);
+    -moz-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.566);
+    box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.566);
+    width: 16rem;
+}
+
+.card:hover{
+    transform: scale(1.02); 
+    
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.iconVolver{
+    width: 40%;
+}
+
+img{
+    width: 15em;
+    border-radius: 14px;
+}
+
+.botonRecarga{
+    margin-top: 7em;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+footer{
+    background-color: #e5501ec1;
+}
+
+
+
+
+@media (max-width: 768px){
+    .imgJs{
+        display: none;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    h1{
+        font-size: 3em;
+        -webkit-text-stroke: 2px rgb(255, 255, 255);
+        color: transparent;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 500px){
+    .card{
+        width: 13rem;
+    }
+    .contenedor{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    h1{
+        font-size: 2.5em;
+        -webkit-text-stroke: 2px rgb(255, 255, 255);
+        color: transparent;
+        letter-spacing: 1px;
+    }
+}

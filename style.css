@@ -37,6 +37,11 @@ text-align: center;
     display: flex;
     justify-content: center; 
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
 /*--------------*/
 
 
@@ -54,10 +59,7 @@ color: white;
     margin: auto;
     margin-top: 2rem;
 }
-.precio:hover{
-    pointer-events: none;
-    cursor:none;
-}
+
 /*----------------*/
 
 /*SE USA EN DISTINTAS SECCIONES*/
@@ -230,7 +232,7 @@ color: var(--blanco);
 }
 .altoAnchoImgFooter{
     height: 6rem;
-    width: 5rem;
+    width:6rem;
 }
 .fondoFooter{
     background-color: orangered;
