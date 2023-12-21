@@ -16,8 +16,6 @@ document.querySelector('.go-top-container')
 
 
 const contenedor = document.getElementById("contenedor");
-let pagina = 1;
-
 const cargarPlatos = async()=>{
 
     try{
